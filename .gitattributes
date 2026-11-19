@@ -1,0 +1,8 @@
+# 作成日：2026-11-20
+# 目的　：Windows 用スクリプトの改行コードを CRLF に固定する（bat の誤動作防止）
+* text=auto
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.cs  text eol=crlf
+*.ico binary
+*.png binary
